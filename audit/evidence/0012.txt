@@ -1,0 +1,1 @@
+vendored numpy 2.4.4 -> /home/claude/run/aoc-magic-studio-standalone/vendor/linux-x86_64-cp312 (426 files, 49.9 MB)

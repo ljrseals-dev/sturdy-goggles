@@ -1,0 +1,10 @@
+[PASS] python                    3.12.3
+[PASS] numpy                     2.4.4
+[WARN] espeak                    not found (built-in experimental speech will be used)
+       fix: install espeak-ng for clearer speech (apt install espeak-ng / brew install espeak-ng)
+[PASS] temp dir writable         /tmp
+[PASS] speech self-test          6608 samples
+[PASS] vocal renderer self-test  48510 samples
+[PASS] tkinter (not required)    not installed; the UI is browser based and does not need it
+[PASS] consent store             /root/.aoc_magic/consents.jsonl (none yet; created on first use)
+[PASS] edition                   AOC Magic Studio 5.1.0 standalone

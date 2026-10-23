@@ -1,0 +1,11 @@
+Linux-6.18.44-fc-v139-x86_64-with-glibc2.39
+3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]
+numpy 2.4.4
+cpus 1
+espeak-ng ENV_MISSING
+espeak ENV_MISSING
+pyinstaller ENV_MISSING
+playwright /home/claude/.npm-global/bin/playwright
+uv /home/claude/.local/bin/uv
+gcc /usr/bin/gcc
+lua ENV_MISSING

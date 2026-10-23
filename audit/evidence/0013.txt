@@ -1,0 +1,18 @@
+PASS test_vendor.py::test_bundled_numpy_is_used_when_present_and_verified_by_manifest
+PASS test_vendor.py::test_numpy_missing_gives_clear_errors_and_numpy_free_commands_still_work
+PASS test_budgets.py::test_cli_help_and_version_do_not_import_numpy
+PASS test_budgets.py::test_cli_import_time_budget
+PASS test_budgets.py::test_ten_track_mix_budget
+PASS test_build.py::test_examples_run
+PASS test_build.py::test_pyz_builds_and_runs_outside_the_source_tree
+FAIL test_build.py::test_shipped_pyz_matches_a_fresh_build
+Traceback (most recent call last):
+  File "/home/claude/run/aoc-magic-studio-standalone/tools/run_tests.py", line 23, in <module>
+    fn(); print(f"PASS {path.name}::{name}"); ok += 1
+    ^^^^
+  File "/home/claude/run/aoc-magic-studio-standalone/tests/test_build.py", line 42, in test_shipped_pyz_matches_a_fresh_build
+    assert hashlib.sha256(Path(out).read_bytes()).hexdigest() == hashlib.sha256(shipped.read_bytes()).hexdigest(), \
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: dist/aoc.pyz is stale: rebuild with python tools/build_pyz.py
+
+passed=7 failed=1 skipped=0

@@ -1,0 +1,11 @@
+PASS page loads
+PASS speak synthesizes
+PASS audio element has a source
+PASS studio builds tracks
+PASS mute checkbox reaches the engine
+PASS level slider reaches the engine
+PASS studio renders
+PASS midi export link
+PASS bad lead shows an error
+PASS doctor renders
+PASS no JavaScript errors

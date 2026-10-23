@@ -1,0 +1,7 @@
+PASS test_vendor.py::test_bundled_numpy_is_used_when_present_and_verified_by_manifest
+PASS test_vendor.py::test_numpy_missing_gives_clear_errors_and_numpy_free_commands_still_work
+PASS test_vendor.py::test_pyz_finds_the_bundled_numpy_next_to_it_and_via_AOC_VENDOR
+PASS test_build.py::test_examples_run
+PASS test_build.py::test_pyz_builds_and_runs_outside_the_source_tree
+PASS test_build.py::test_shipped_pyz_matches_a_fresh_build
+passed=6 failed=0 skipped=0

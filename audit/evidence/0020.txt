@@ -1,0 +1,5 @@
+PASS test_resample.py::test_decimation_is_anti_aliased
+PASS test_resample.py::test_edge_cases_and_validation
+PASS test_resample.py::test_passband_is_flat_and_length_is_exact
+PASS test_resample.py::test_sinc_is_far_more_accurate_than_linear_at_fractional_ratios
+passed=4 failed=0 skipped=0

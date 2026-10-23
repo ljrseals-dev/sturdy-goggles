@@ -1,0 +1,1 @@
+Execute Phase P1 of docs/CLAUDE_PROMPT.md (compatibility matrix, UI smoke test, espeak, PyInstaller, reproducible pyz, perf budgets). Mark anything you cannot run NOT_RUN_HERE or NEEDS_HUMAN. End with the PHASE RESULT block.

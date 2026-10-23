@@ -1,0 +1,10 @@
+PASS test_midi_pitch.py::test_lead_from_midi_polyphony_handling_and_errors
+PASS test_midi_pitch.py::test_midi_roundtrip_names_pitches_and_timing
+PASS test_midi_pitch.py::test_midi_running_status_and_tempo_change
+PASS test_midi_pitch.py::test_noisy_and_jittery_voices_are_tracked_within_tolerance
+PASS test_midi_pitch.py::test_note_segmentation
+PASS test_midi_pitch.py::test_octave_jumps_are_corrected_and_isolated_frames_dropped
+PASS test_midi_pitch.py::test_pitch_accuracy_across_the_vocal_range
+PASS test_midi_pitch.py::test_tracker_speed_budget_is_met_with_margin
+PASS test_midi_pitch.py::test_weak_fundamental_and_silence_and_noise
+passed=9 failed=0 skipped=0

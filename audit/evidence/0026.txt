@@ -1,0 +1,21 @@
+PASS test_voice_clone.py::test_engine_selection_registry_and_plugin_priority
+PASS test_voice_clone.py::test_enrollment_quality_gates
+PASS test_voice_clone.py::test_enrollment_requires_consent_before_reading_audio_and_records_provenance
+PASS test_voice_clone.py::test_exemplar_engine_moves_frames_and_spectrum_toward_the_reference_timbre_only_case
+PASS test_voice_clone.py::test_input_validation_shapes_and_determinism
+PASS test_voice_clone.py::test_pitch_transfer_accuracy_and_clamp_note
+PASS test_voice_clone.py::test_profile_roundtrip_tamper_detection_and_name_safety
+FAIL test_voice_clone.py::test_protocol_and_cli_voice_flow
+Traceback (most recent call last):
+  File "/home/claude/run/aoc-magic-studio-standalone/tools/run_tests.py", line 23, in <module>
+    fn(); print(f"PASS {path.name}::{name}"); ok += 1
+    ^^^^
+  File "/home/claude/run/aoc-magic-studio-standalone/tests/test_voice_clone.py", line 177, in test_protocol_and_cli_voice_flow
+    assert run("voice", "enroll", "--name", "c1", "--sample", ws + "/ref.wav").returncode == 2                         # needs consent / --attest
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+PASS test_voice_clone.py::test_provenance_sidecar_and_fingerprint_fields
+PASS test_voice_clone.py::test_speak_as_closes_pitch_gap_and_improves_timbre_match
+PASS test_voice_clone.py::test_stereo_and_other_sample_rates_enroll
+passed=10 failed=1 skipped=0
