@@ -1,3 +1,9 @@
+Copyright © 2026 Lewis James Seals Jr. All rights reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT.
+
 # AOC Magic Studio: Standalone Edition 5.1.0
 
 A self-contained audio engine and tool set. **No DAW, no GPU, no network, no scipy/torch/librosa.** Python 3.9+ and
